@@ -6,11 +6,18 @@ export default {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        'permanent-marker': ['Permanent Marker', 'cursive'],
+        'yatra-one': ['Yatra One', 'sans-serif'],
+      },
+
       colors: {
-        'hot': '#9d0208',
-        'red': '#d00000',
-        'orange': '#e74c3c',
-        'yellow': '#ffba08',
+        'my-hot': '#9d0208',
+        'my-red': '#d00000',
+        'my-orange': '#e74c3c',
+        'my-yellow': '#ffba08',
+        'my-gold': '#c59d5f',
       },
     },
   },

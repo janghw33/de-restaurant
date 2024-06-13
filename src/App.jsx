@@ -9,7 +9,7 @@ import MenuPage from './pages/MenuPage'
 function App() {
   return (
     <>
-      <Contract/>
+      {/* <Contract/> */}
       <Nav/>
       <Routes>
         <Route path="/">
