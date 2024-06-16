@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo-sample.png";
 
 const Nav = () => {
   const navLinkStyles = ({ isActive }) => {
@@ -9,7 +10,7 @@ const Nav = () => {
     <nav className ="bg-white font-permanent-marker font-bold z-10 p-4 md:p-8" >
       <div className="flex justify-between items-center mb-5">
           <a href="/">
-              <img className="w-[30%]" src="../assets/logo-sample.png"/>
+              <img className="w-[30%]" src={logo} />
           </a>
           <div>
           
