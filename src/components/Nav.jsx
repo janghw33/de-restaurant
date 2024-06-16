@@ -11,12 +11,25 @@ const Nav = () => {
           <a href="/">
               <img className="w-[30%]" src="../src/assets/logo-sample.png"/>
           </a>
-          <p className="text-my-gold flex">
-          <svg xmlns="http://www.w3.org/2000/svg" className="text-my-gold" width="24" height="24">
-      <path d="M20 15.5a15.374 15.374 0 01-3.927-.511 1.494 1.494 0 00-1.349.23l-2.2 1.65a15.034 15.034 0 01-5.608-5.607l1.65-2.2a1.494 1.494 0 00.23-1.349A15.374 15.374 0 018.5 4 1.5 1.5 0 007 2.5H4A1.5 1.5 0 002.5 4 17.506 17.506 0 0020 21.5a1.5 1.5 0 001.5-1.5v-3A1.5 1.5 0 0020 15.5z"/>
-    </svg>
-    +49-111-1111-1111
+          <div>
+          
+          <p className="text-stone-700 flex font-thin">
+          <i className="fa-solid fa-phone-volume mt-1.5 mr-1" />
+          +49 176-1212-3445
           </p>
+          <p className="text-stone-700 flex font-thin">
+          <i className="fa-regular fa-envelope mt-1.5 mr-1" />
+          owner@gmail.com
+          </p>
+          <p className="text-stone-700 flex font-thin ml-0.5">
+          <i className="fa-solid fa-location-dot mt-1 mr-1.5" />
+          Graefestraße 93
+          </p>
+          
+        
+          </div>
+          
+          
           
         </div>
         <ul
@@ -27,7 +40,7 @@ const Nav = () => {
               className={
                 navLinkStyles({ isActive: true }) + " " + navLinkHoverStyles
               }
-              to="laptop"
+              to="/"
             >
               HOME
             </NavLink>
