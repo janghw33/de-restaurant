@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className ="bg-white font-permanent-marker font-bold z-10 p-4 md:p-8" >
       <div className="flex justify-between items-center mb-5">
           <a href="/">
-              <img className="w-[30%]" src="../src/assets/logo-sample.png"/>
+              <img className="w-[30%]" src="../assets/logo-sample.png"/>
           </a>
           <div>
           
